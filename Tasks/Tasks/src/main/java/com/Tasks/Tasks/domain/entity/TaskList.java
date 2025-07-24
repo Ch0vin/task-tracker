@@ -38,6 +38,9 @@ public class TaskList {
         this.updated = updated;
     }
 
+    public TaskList(UUID id, String title, String description, List<Task> tasks, Object o) {
+    }
+
     public List<Task> getTasks() {
         return tasks;
     }
